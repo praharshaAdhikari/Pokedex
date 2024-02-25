@@ -12,6 +12,6 @@ Run the following commands and visit http://localhost:4321/ to view the site loc
 
 Else just visit https://dummypokedex.netlify.app/ to look at the deployed site.
 
-## 👀 Want to learn more?
+## 👀 Want to learn more about Astro?
 
 Feel free to check [documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
