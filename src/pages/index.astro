@@ -1,0 +1,18 @@
+---
+import "../styles.css";
+import Hero from "../components/Hero.jsx";
+import Pokedex from "../components/Pokedex.jsx";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Pokédex</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <Hero client:load />
+    <Pokedex client:load />
+  </body>
+</html>
