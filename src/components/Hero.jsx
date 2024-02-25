@@ -15,14 +15,12 @@ const Hero = () => {
       <div className="bg-transparent">
         <div className="mx-auto flex flex-col items-center py-12 sm:py-24">
           <div className="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col mb-5 sm:mb-10">
-            <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl text-center text-gray-800 dark:text-white font-black leading-10">
+            <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl text-center text-white font-black leading-10">
               Everything about a
-              <span className="text-red-800 dark:text-red-500">
-                {" Pokémon "}
-              </span>
+              <span className="text-red-500">{" Pokémon "}</span>
               that you need to know.
             </h1>
-            <p className="mt-5 sm:mt-10 lg:w-10/12 text-gray-600 dark:text-gray-300 font-normal text-center text-xl">
+            <p className="mt-5 sm:mt-10 lg:w-10/12 text-gray-300 font-normal text-center text-xl">
               A pokédex with name, type and images of the original 151 pokémon.
             </p>
           </div>
@@ -30,7 +28,7 @@ const Hero = () => {
             <form className="flex rounded-md w-full" onSubmit={handleSubmit}>
               <input
                 type="text"
-                className="w-full p-4 rounded-md rounded-r-none outline-none border-2 border-gray-300 dark:bg-gray-500 dark:placeholder:text-gray-300 dark:text-white dark:border-none text-xl"
+                className="w-full p-4 rounded-md rounded-r-none outline-none border-gray-300 bg-gray-500 placeholder:text-gray-300 text-white border-none text-xl"
                 placeholder="Enter name or type of a pokémon"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
