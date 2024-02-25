@@ -8,11 +8,15 @@ import Pokedex from "../components/Pokedex.jsx";
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="A pokédex with name, type and images of the original 151 pokémon."
+    />
     <meta name="generator" content={Astro.generator} />
     <title>Pokédex</title>
   </head>
   <body class="overflow-x-hidden">
-    <Hero client:load />
+    <Hero client:idle />
     <Pokedex client:load />
   </body>
 </html>
